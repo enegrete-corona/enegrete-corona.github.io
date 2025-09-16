@@ -15,7 +15,7 @@ h1 {
 h2 {
     font-size: 130%;
     color: maroon;
-    text-indent: 30%;
+    text-indent: 30px;
 }
 img {
     float: left;
