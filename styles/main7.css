@@ -12,7 +12,7 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: url("../images/neutral-color-background.jpg");
+    background-image: url(/images/neutral-color-background.jpg);
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -51,7 +51,7 @@ main h3 {
 }
 main nav {
     margin:  1.5em 2em 1.5em;
-    border: 5px dashed  lab(80.85% 10.12 41.08;
+    border: 5px dashed  lab(80.85% 10.12 41.08);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px;
     padding: .5em;
@@ -61,7 +61,7 @@ main nav {
 }
 div.contact {
     margin: 1.5em 2em 0 2em;
-    border: 5px dotted  lab(80.85% 10.12 41.08;
+    border: 5px dotted  lab(80.85% 10.12 41.08);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px rgb(202, 165, 108);
     padding: 1em;
