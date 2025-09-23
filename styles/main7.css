@@ -12,7 +12,10 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: "i";
+    background-image: url("/images/neutral-color-background.jpg");
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 a:focus,a:hover {
     font-style: italic;
