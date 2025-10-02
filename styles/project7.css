@@ -1,6 +1,9 @@
 html {
     background-image: linear-gradient(to left, white 0%, #fafafa 100%);
 }
+header {
+    border-bottom:2px solid #523ada ;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +19,7 @@ body {
     background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
+
 }
 a:focus,a:hover {
     font-style: italic;
