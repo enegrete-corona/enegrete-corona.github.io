@@ -67,6 +67,7 @@ aside {
     width: 20%;
     float:right;
     background-color: darkgoldenrod;
+    padding: 10px;
 }
 footer {
     clear: both;
@@ -81,6 +82,7 @@ p.fixed {
     width:auto; 
     float: right; 
     background-color: cadetblue;
+    padding: 10px; 
 }
 hr {
     height: 4px;
