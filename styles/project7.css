@@ -83,6 +83,7 @@ p.fixed {
     float: right; 
     background-color: cadetblue;
     padding: 10px; 
+    margin-bottom: 20px;
 }
 hr {
     height: 4px;
