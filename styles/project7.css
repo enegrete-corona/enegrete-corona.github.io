@@ -84,7 +84,7 @@ footer p.copyright {
 
 }
 p.fixed {
-    position: fixed; right: 10px;
+    position: fixed; right: 10px; bottom: 300px;
     width:auto; 
     background-color: cadetblue;
     padding: 10px; 
