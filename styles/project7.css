@@ -3,6 +3,7 @@ html {
 }
 header {
     border-bottom:2px solid #523ada ;
+    padding-bottom: 10px;
 }
 
 body {
@@ -83,6 +84,7 @@ footer p.copyright {
 
 }
 p.fixed {
+    
     width:auto; 
     float: right; 
     background-color: cadetblue;
@@ -90,8 +92,4 @@ p.fixed {
     border: 2px solid darkslategrey;
     margin-top: 10em;
     margin-left: 2em;
-}
-hr {
-    height: 4px;
-    color: #523ada;
 }
