@@ -27,12 +27,14 @@ h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
-    column-span: all ;
 }
 h2 {
     font-size: 130%;
     color: maroon;
     text-indent: 30px;
+}
+h3 {
+     column-span: all ;
 }
 img {
     float: left;
