@@ -27,6 +27,7 @@ h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
+    clear: both;
 }
 h2 {
     font-size: 130%;
