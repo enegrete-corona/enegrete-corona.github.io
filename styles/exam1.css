@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to left, rgb(124, 226, 252) 0%, #fafafa 100%);
+    background-image: linear-gradient(to left, rgb(231, 246, 250) 0%, #80caec 100%);
 }
 header {
     border-bottom:2px solid #523ada ;
@@ -28,7 +28,7 @@ header {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%;
+    
     background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
