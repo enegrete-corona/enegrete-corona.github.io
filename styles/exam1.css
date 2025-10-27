@@ -54,12 +54,12 @@ a:focus,a:hover {
 h1 {
     font-size: 150%;
     color: maroon;
-    text-indent: 30px;
+    
 }
 h2 {
     font-size: 130%;
     color: maroon;
-    text-indent: 30px;
+    
 }
 h3 {
      column-span: all ;
