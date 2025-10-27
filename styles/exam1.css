@@ -38,7 +38,7 @@ body {
     color: white;
     font-weight: bold;
     border-right: 2px solid white; 
-    border-bottom:2px solid #523ada ;
+    
 }
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
@@ -79,6 +79,7 @@ article{
     column-rule: 2px dotted maroon;
     column-gap: 2em;
     margin-left: 2em;
+    border-top:2px solid #523ada ;
 }
 article img {
     float: left;
