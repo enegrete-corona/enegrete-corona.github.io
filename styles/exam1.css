@@ -30,7 +30,7 @@ body {
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 1em;    /* padding above and below a
+    padding: 1em 0;    /* padding above and below a
                             elements */
     
     text-decoration: none;
@@ -75,6 +75,7 @@ article{
     clear: left;
     width: 75%;
     float: left;
+    margin-top: 10px;
     column-count: 3;
     column-rule: 2px dotted maroon;
     column-gap: 2em;
