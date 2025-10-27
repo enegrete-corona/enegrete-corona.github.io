@@ -87,7 +87,7 @@ article img {
     float: left;
     margin-right: 1em;
     margin-bottom: 1em;
-    margin-left: 2em;
+    margin-left: 0;
 }
 article p::first-letter {
     font-size: 3em;
