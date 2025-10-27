@@ -7,6 +7,7 @@ header {
 }
 
 body {
+    width: 95%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     height: auto;
@@ -72,7 +73,7 @@ img {
 }
 article{
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 3;
     column-rule: 2px dotted maroon;
@@ -91,6 +92,7 @@ article p::first-letter {
 }
 
 aside {
+    position: fixed;
     width: 20%;
     float:right;
     background-color: #bda66d;
