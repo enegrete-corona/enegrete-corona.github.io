@@ -50,7 +50,7 @@ table.third {
 }
 
 table.third th {
-    border-bottom: 5px solid #ff6f3c;
+    border-bottom: 3px solid #ff6f3c;
     
 }
 table.third td {
@@ -62,6 +62,10 @@ table.third thead {
     text-align: center;
     font-size: 18px;
     
+}
+
+table.third tbody {
+    border-bottom: 3px solid #ff6f3c;
 }
 
 
