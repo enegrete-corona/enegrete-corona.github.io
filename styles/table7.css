@@ -50,7 +50,7 @@ table.second thead tr:first-child{
 
 .third th,
 .third td {
-    border: 1px solid #dd4407;
+    border: 1px 0px solid #dd4407;
     padding: 8px;
 
 thead {
