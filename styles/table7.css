@@ -60,17 +60,5 @@ table.third thead {
     
 }
 
-table.third thead tr {
-    text-align: center;
-    border-top: orangered;
-    border-bottom: orangered;
-}
 
-table.third td:first-child {
-    width: 60px;
-    text-align: center;
-}
 
-table.third td:nth-child(3) {
-    text-align: center;
-}
