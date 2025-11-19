@@ -182,32 +182,3 @@ footer {
 
 
 
-
-.third {
-    width: 450px;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-family: Arial, sans-serif;
-}
-
-.third th,
-.third td {
-    border: 1px solid #000;
-    padding: 8px;
-}
-
-thead {
-    background-color: #8FE78F;
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-}
-
-.third td:first-child {
-    width: 60px;
-    text-align: center;
-}
-
-.third td:nth-child(3) {
-    text-align: center;
-}
