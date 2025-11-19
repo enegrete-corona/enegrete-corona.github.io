@@ -49,7 +49,7 @@ table.third {
 }
 
 table.third th,
-Table.third td {
+table.third td {
     border: 1px 0px solid #dd4407;
     padding: 8px;
 }
@@ -60,11 +60,11 @@ table.third thead {
     font-size: 18px;
 }
 
-.third td:first-child {
+table.third td:first-child {
     width: 60px;
     text-align: center;
 }
 
-.third td:nth-child(3) {
+table.third td:nth-child(3) {
     text-align: center;
 }
