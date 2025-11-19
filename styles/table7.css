@@ -45,11 +45,13 @@ table.second thead tr:first-child{
     border-collapse: collapse;
     margin: 20px 0;
     font-family: Arial, sans-serif;
-    border: 1px solid #000;
-    padding: 8px;
+   
 }
 
-
+.third th,
+.third td {
+    border: 1px solid #dd4407;
+    padding: 8px;
 
 thead {
     background-color: #8FE78F;
