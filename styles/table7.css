@@ -69,4 +69,6 @@ table.third tbody {
 }
 
 
-
+table.third tbody col:first-child {
+    text-align: left;
+}
