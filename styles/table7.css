@@ -60,7 +60,7 @@ table.third thead {
     
 }
 
-table.third th {
+table.third thead tr {
     text-align: center;
     border-top: orangered;
     border-bottom: orangered;
