@@ -51,6 +51,7 @@ table.third {
 
 table.third th {
     border-bottom: 3px solid #ff6f3c;
+    border-top: 3px solid #ff6f3c;
     
 }
 table.third td {
