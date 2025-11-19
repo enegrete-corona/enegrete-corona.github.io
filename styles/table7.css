@@ -40,7 +40,7 @@ table.second thead tr:first-child{
 
 
 
-.third {
+table.third {
     width: 450px;
     border-collapse: collapse;
     margin: 20px 0;
@@ -48,12 +48,12 @@ table.second thead tr:first-child{
    
 }
 
-.third th,
-.third td {
+table.third th,
+Table.third td {
     border: 1px 0px solid #dd4407;
     padding: 8px;
-
-thead {
+}
+table.thead {
     background-color: #8FE78F;
     font-weight: bold;
     text-align: center;
