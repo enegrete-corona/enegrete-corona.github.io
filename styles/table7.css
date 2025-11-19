@@ -47,11 +47,7 @@ table.second thead tr:first-child{
     font-family: Arial, sans-serif;
 }
 
-.third th,
-.third td {
-    border: 1px 0px solid #b30b0b;
-    padding: 8px;
-}
+
 
 thead {
     background-color: #8FE78F;
