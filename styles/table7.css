@@ -61,7 +61,6 @@ table.third thead {
 }
 
 table.third th {
-    width: 60px;
     text-align: center;
     border-top: orangered;
     border-bottom: orangered;
