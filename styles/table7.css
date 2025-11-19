@@ -57,6 +57,12 @@ table.third thead {
     font-weight: bold;
     text-align: center;
     font-size: 18px;
+    
+}
+
+table.third th:first-child {
+    width: 60px;
+    text-align: center;
     border-top: orangered;
     border-bottom: orangered;
 }
