@@ -50,7 +50,6 @@ table.third {
 
 table.third th,
 table.third td {
-    border: 1px 0px solid #dd4407;
     padding: 8px;
 }
 table.third thead {
@@ -58,6 +57,8 @@ table.third thead {
     font-weight: bold;
     text-align: center;
     font-size: 18px;
+    border-top: orangered;
+    border-bottom: orangered;
 }
 
 table.third td:first-child {
