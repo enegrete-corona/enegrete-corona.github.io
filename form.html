@@ -74,36 +74,24 @@
         <legend>How Did You Hear About Us?</legend>
 
         <label>
-            <input type="checkbox" name="hearAbout" value="search">
             Search engine
+            <input type="checkbox" name="hearAbout[]" value="search">
         </label><br>
 
         <label>
-            <input type="checkbox" name="hearAbout" value="social">
             Social media
+            <input type="checkbox" name="hearAbout[]" value="social">
         </label><br>
 
         <label>
-            <input type="checkbox" name="hearAbout" value="email">
             Email
+            <input type="checkbox" name="hearAbout[]" value="email">
         </label><br>
 
         <label>
-            <input type="checkbox" name="hearAbout" value="friend">
             Friend or colleague
-        </label><br>
-    </fieldset>
-
-    <button type="submit">Submit</button>
-
-     <fieldset>
-        <legend>Comments</legend>
-
-        <label for="comments" class="visually-hidden">
-            Comments
+            <input type="checkbox" name="hearAbout[]" value="friend">
         </label>
-        <textarea id="comments" name="comments" rows="5" cols="60"
-            placeholder="If you have any comments, please enter them here."></textarea>
     </fieldset>
 
     <!-- Submit Your Membership -->
