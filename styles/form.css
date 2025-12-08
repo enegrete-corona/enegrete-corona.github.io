@@ -41,3 +41,11 @@ textarea {
 #buttons input {
     width: 10em;
 }
+fieldset:last-of-type {
+    text-align: center;
+}
+
+fieldset:last-of-type input {
+    width: 140px;
+    margin: 0 10px;
+}
