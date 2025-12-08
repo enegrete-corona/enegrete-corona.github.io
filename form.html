@@ -8,6 +8,8 @@
     
 </head>
 <body>
+    <form action="register_account.html" method="post" id="registration_form"></form>
+
     <fieldset>
         <legend>Registration Information</legend>
         <label for="email">E-Mail:</label>
@@ -21,6 +23,84 @@
         <br>
         <label for="verify">Verify Password:</label>
         <input type="password" name="verify" id="verify" required><br>
- </fieldset>
+    </fieldset>
+
+      <!-- Member Information -->
+    <fieldset>
+        <legend>Member Information</legend>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"
+               placeholder="2-character code"
+               pattern="[A-Za-z]{2}"
+               title="Use a 2-letter state code" required><br>
+
+        <label for="zip">ZIP Code:</label>
+        <input type="text" id="zip" name="zip"
+               placeholder="5 or 9 digits"
+               pattern="\d{5}(\d{4})?"
+               title="Enter 5 or 9 digits" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"
+               placeholder="999-999-9999"
+               pattern="\d{3}-\d{3}-\d{4}"
+               title="Use the format 999-999-9999"><br>
+    </fieldset>
+
+    <!-- Membership Information -->
+    <fieldset>
+        <legend>Membership Information</legend>
+
+        <label for="membershipType">Membership Type:</label>
+        <select id="membershipType" name="membershipType">
+            <option value="junior" selected>Junior</option>
+            <option value="regular">Regular</option>
+            <option value="senior">Senior</option>
+        </select><br>
+
+        <label for="startDate">Starting Date:</label>
+        <input type="date" id="startDate" name="startDate"><br>
+
+        <label for="tickets">Tickets for Guests:</label>
+        <input type="number" id="tickets" name="tickets" value="2" min="0"><br>
+    </fieldset>
+
+    <!-- How Did You Hear About Us? -->
+    <fieldset>
+        <legend>How Did You Hear About Us?</legend>
+
+        <label>
+            <input type="checkbox" name="hearAbout" value="search">
+            Search engine
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="hearAbout" value="social">
+            Social media
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="hearAbout" value="email">
+            Email
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="hearAbout" value="friend">
+            Friend or colleague
+        </label><br>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+
+
+
+
 
 </body>
